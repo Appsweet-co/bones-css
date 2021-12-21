@@ -1,0 +1,26 @@
+{
+  "name": "@appsweet-co/bones-css",
+  "version": "0.1.0",
+  "description": "A lightweight utility for working with skeleton text and images",
+  "main": "build/index.min.css",
+  "scripts": {
+    "build": "npx sass -s compressed src/index.scss:build/index.min.css",
+    "readme": "npx @appnest/readme generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appsweet-co/bones-css.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "skeleton",
+    "html"
+  ],
+  "author": "Appsweet <http://appsweet.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Appsweet-co/bones-css/issues"
+  },
+  "homepage": "https://github.com/Appsweet-co/bones-css#readme"
+}
