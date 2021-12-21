@@ -1,0 +1,11 @@
+.bones {
+  background-color: var(--bones-color);
+  border-radius: var(--bones-radius);
+  color: transparent;
+  inline-size: var(--bones-width);
+  pointer-events: none;
+
+  &.animated {
+    animation: var(--bones-animation);
+  }
+}

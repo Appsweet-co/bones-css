@@ -1,0 +1,14 @@
+:root {
+  color-scheme: light dark;
+}
+
+:root {
+  --bones-animation: bones-pulse 1.5s ease-in-out 0s infinite alternate both;
+  --bones-color: rgba(0, 0, 0, 0.1);
+  --bones-radius: 0.5rem;
+  --bones-width: 100%;
+
+  @media (prefers-color-scheme: dark) {
+    --bones-color: rgba(255, 255, 255, 0.15);
+  }
+}
