@@ -22,10 +22,10 @@ npm i @appsweet-co/bones-css
 
 ```html
 <!-- Animated -->
-<div class="bones animated" style="width: 75%"></div>
+<div class="bones animated" style="width: 75%; height: 2rem;"></div>
 
 <!-- Static -->
-<div class="bones" style="width: 75%"></div>
+<div class="bones" style="width: 75%; height: 2rem;"></div>
 ```
 
 Add custom CSS as needed.
