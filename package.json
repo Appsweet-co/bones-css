@@ -4,7 +4,7 @@
   "description": "A lightweight utility for working with skeleton text and images",
   "main": "build/index.min.css",
   "scripts": {
-    "build": "npx sass -s compressed src/index.scss:build/index.min.css",
+    "build": "npx sass -s compressed src/index.scss:build/index.min.css"
   },
   "repository": {
     "type": "git",
