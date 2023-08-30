@@ -20,8 +20,6 @@ npm i @appsweet-co/bones-css
 
 ### Usage
 
-
-
 ```html
 <!-- Animated -->
 <div class="bones animated" style="width: 75%"></div>
