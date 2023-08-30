@@ -20,12 +20,20 @@ npm i @appsweet-co/bones-css
 
 ### Usage
 
-```html
-<!-- Animated -->
-<div class="bones animated" style="width: 75%; height: 2rem;"></div>
+Add the `bones` class to any element.
 
-<!-- Static -->
-<div class="bones" style="width: 75%; height: 2rem;"></div>
+```html
+<h1 class="bones" style="width: 65%;">Hidden Text Here</h1>
+<p class="bones">Also hidden here</p>
+<p class="bones">And here</p>
 ```
 
-Add custom CSS as needed.
+Include the `animated` class to animate the elements.
+
+```html
+<h1 class="bones animated" style="width: 65%;">Hidden Text Here</h1>
+<p class="bones animated">Also hidden here</p>
+<p class="bones animated">And here</p>
+```
+
+You can also add custom CSS as needed.
