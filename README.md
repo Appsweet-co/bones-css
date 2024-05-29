@@ -27,11 +27,11 @@ Add the CSS file to your HTML as needed.
 You can also import Spock CSS directly from a CDN.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@appsweet-co/spock-css@latest/dist/bones.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@appsweet-co/bones-css@latest/dist/bones.min.css">
   
 <!-- OR -->
   
-<link rel="stylesheet" href="https://unpkg.com/@appsweet-co/spock-css@latest/dist/bones.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@appsweet-co/bones-css@latest/dist/bones.min.css">
 ```
 
 Remember to replace `latest` with a specifc version number when using the CDN. See [Unpkg](https://unpkg.com/) and [jsDelivr](https://www.jsdelivr.com/) for details.
