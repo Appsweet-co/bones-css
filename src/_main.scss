@@ -2,7 +2,7 @@
   background-color: var(--bones-color);
   border-radius: var(--bones-radius);
   color: transparent;
-  inline-size: var(--bones-width);
+  inline-size: var(--bones-inline-size);
   pointer-events: none;
 
   &.animated {
