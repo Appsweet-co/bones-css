@@ -55,3 +55,7 @@ Include the `animated` class to animate the elements.
 ```
 
 You can also add custom CSS as needed.
+
+### Customize
+
+Use [CSS Variables](./src/_vars.css) to modify the look at feel of your skeleton placeholders.
