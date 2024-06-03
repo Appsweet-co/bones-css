@@ -18,7 +18,7 @@
     "url": "git+https://github.com/Appsweet-co/bones-css.git"
   },
   "scripts": {
-    "build": "npx sass -s compressed src/index.scss:dist/bones.min.css",
+    "build": "npx lightningcss-cli --bundle --minify --sourcemap src/index.css -o dist/bones.min.css",
     "dev": "npx parcel index.html"
   },
   "version": "0.1.0"
