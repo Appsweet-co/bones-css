@@ -4,9 +4,6 @@
     "url": "https://github.com/Appsweet-co/bones-css/issues"
   },
   "description": "A lightweight utility for working with skeleton text and images",
-  "devDependencies": {
-    "@appsweet-co/spock-css": "^0.6.0"
-  },
   "homepage": "https://github.com/Appsweet-co/bones-css#readme",
   "keywords": [
     "css",
@@ -15,7 +12,6 @@
     "html"
   ],
   "license": "MIT",
-  "main": "dist/bones.min.css",
   "name": "@appsweet-co/bones-css",
   "repository": {
     "type": "git",
@@ -23,7 +19,7 @@
   },
   "scripts": {
     "build": "npx sass -s compressed src/index.scss:dist/bones.min.css",
-    "dev": "npx http-server -c-1 ."
+    "dev": "npx parcel index.html"
   },
   "version": "0.1.0"
 }
