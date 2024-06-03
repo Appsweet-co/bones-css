@@ -23,5 +23,5 @@
     "prebuild": "rm -f dist/*",
     "predev": "rm -rf .parcel-cache/ build/"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
