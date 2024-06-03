@@ -19,7 +19,9 @@
   },
   "scripts": {
     "build": "npx lightningcss-cli --bundle --minify --sourcemap src/index.css -o dist/bones.min.css",
-    "dev": "npx parcel index.html"
+    "dev": "npx parcel serve --dist-dir build/ index.html",
+    "prebuild": "rm -f dist/*",
+    "predev": "rm -rf .parcel-cache/ build/"
   },
   "version": "0.1.0"
 }
