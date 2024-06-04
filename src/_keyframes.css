@@ -1,12 +1,16 @@
-@keyframes bones-pulse {
+@layer bones-css {
 
-  to,
-  from {
-    opacity: 1;
-  }
+  @keyframes bones-pulse {
 
-  50% {
-    opacity: 0.15;
+    to,
+    from {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.15;
+    }
+    
   }
 
 }
